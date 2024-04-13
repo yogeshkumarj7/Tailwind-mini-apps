@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & Tailwind CSS Starter Pack</title>
+
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body>
+    <div class="flex h-screen items-center">
+      <header class="flex h-24 w-full items-center justify-around bg-green-400">
+        <div class="logo">
+          <h1
+            class="cursor-pointer text-2xl font-semibold text-gray-100 sm:3xl"
+          >
+            Yogi
+          </h1>
+        </div>
+        <nav class="w-1/2 xs:hidden">
+          <div class="flex items-center justify-evenly">
+            <a href="#">Home</a>
+            <a href="#">Pricing</a>
+            <a href="#" class="active">Docs</a>
+            <a href="#">About</a>
+          </div>
+        </nav>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="2.5"
+          stroke="currentColor"
+          class="hidden h-8 w-8 cursor-pointer xs:flex"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+        <div>
+          <button
+            class="rounded-full bg-red-600 px-4 py-2 font-semibold text-white"
+          >
+            Demo
+          </button>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>
