@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & Tailwind CSS Starter Pack</title>
+
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body>
+    <div class="container h-screen w-full flex items-center justify-center">
+      <div
+        class="bg-sky-300 flex flex-col relative gap-10 rounded-md px-10 py-10"
+      >
+        <div class="flex gap-4">
+          <h1 class="text-xl">Are you sure you want to delete your Account?</h1>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2.5"
+            class="absolute right-3 top-2 h-5 w-5 cursor-pointer"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </div>
+
+        <div class="flex justify-around">
+          <button class="font-bold bg-green-600 p-3 rounded-xl text-white">
+            No,Cancel delation
+          </button>
+          <button class="font-bold bg-red-600 p-3 rounded-xl text-white">
+            Yes,delete account
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
